@@ -932,6 +932,7 @@ body.light hr.separator {
 }
 
 .portfolio .slideshow figcaption {
+  
   margin-bottom: 15px;
 }
 
@@ -941,6 +942,7 @@ body.light hr.separator {
   font-weight: 700;
   text-align: center;
   font-size: 33px;
+  
 }
 
 /* Embedded Videos */
