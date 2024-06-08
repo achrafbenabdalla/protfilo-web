@@ -34,7 +34,7 @@ The Portfilo Web Project is designed to be a personal portfolio website that is 
   * **Flexibility:** Highly customizable to suit various requirements.
 ## How it Works
 This diagram will give you an overview of how it works, and we will then proceed to examine each step in detail.</br>
-[diagrame picture]</br>
+![how it works](img/Readme/pic.png)</br>
 1.The first step is to develop your own portfolio or any other web project.</br>
 2.The second step is to create a repository on GitHub and link it with your local repository.</br>
 3.Create a folder and write the Terraform code, then connect your Azure account with Terraform.</br>
