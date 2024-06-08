@@ -38,7 +38,6 @@ This diagram will give you an overview of how it works, and we will then proceed
 1.The first step is to develop your own portfolio or any other web project.</br>
 2.The second step is to create a repository on GitHub and link it with your local repository.</br>
 3.Create a folder and write the Terraform code, then connect your Azure account with Terraform.</br>
-![how it works](img/Readme/terafforme.png) </br>
 ![how it works](img/Readme/provider.png)
 4.Run the Terraform init command.</br>
 5.Execute the Terraform plan command.</br>
