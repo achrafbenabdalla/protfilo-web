@@ -38,15 +38,22 @@ This diagram will give you an overview of how it works, and we will then proceed
 1.The first step is to develop your own portfolio or any other web project.</br>
 2.The second step is to create a repository on GitHub and link it with your local repository.</br>
 3.Create a folder and write the Terraform code, then connect your Azure account with Terraform.</br>
+![how it works](img/Readme/terafforme.png)
+![how it works](img/Readme/provider.png)
 4.Run the Terraform init command.</br>
 5.Execute the Terraform plan command.</br>
 6.Apply the Terraform apply command.</br>
 7.Go to your Azure portal, navigate to the virtual machine section, and refresh to find the VM created via Terraform.</br>
+![how it works](img/Readme/5.png)
 8.Now, go to the VM settings, then Networking (inbound port rules), and add port rules to allow SSH connections using tools like PuTTY, and open ports 8080 for Jenkins server and 8081 for our portfolio deployment.</br>
+![how it works](img/Readme/9.png)
 9.Connect to your VM via PuTTY.</br>
+![how it works](img/Readme/8.png)
 10.Install Jenkins.</br>
 11.After installation, access Jenkins by navigating to <public IP address>:8080 and configure Jenkins.</br>
+![how it works](img/Readme/15.png)
 12.Create a webhook and link it with Jenkins.</br>
+
 13.Install Apache.</br>
 14.Create a Jenkins script that updates the changes in /var/www/html with every update.</br>
 15.Configure Apache to run on port 8081.</br>
